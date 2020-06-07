@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/nucamp_react/static/css/main.c4357afd.chunk.css",
+    "main.js": "/nucamp_react/static/js/main.98436e0d.chunk.js",
+    "main.js.map": "/nucamp_react/static/js/main.98436e0d.chunk.js.map",
+    "runtime-main.js": "/nucamp_react/static/js/runtime-main.1c0b0eb8.js",
+    "runtime-main.js.map": "/nucamp_react/static/js/runtime-main.1c0b0eb8.js.map",
+    "static/css/2.f8863c3e.chunk.css": "/nucamp_react/static/css/2.f8863c3e.chunk.css",
+    "static/js/2.69aef28b.chunk.js": "/nucamp_react/static/js/2.69aef28b.chunk.js",
+    "static/js/2.69aef28b.chunk.js.map": "/nucamp_react/static/js/2.69aef28b.chunk.js.map",
+    "index.html": "/nucamp_react/index.html",
+    "precache-manifest.587628286336a38bc04636d7d5041d22.js": "/nucamp_react/precache-manifest.587628286336a38bc04636d7d5041d22.js",
+    "service-worker.js": "/nucamp_react/service-worker.js",
+    "static/css/2.f8863c3e.chunk.css.map": "/nucamp_react/static/css/2.f8863c3e.chunk.css.map",
+    "static/css/main.c4357afd.chunk.css.map": "/nucamp_react/static/css/main.c4357afd.chunk.css.map",
+    "static/js/2.69aef28b.chunk.js.LICENSE.txt": "/nucamp_react/static/js/2.69aef28b.chunk.js.LICENSE.txt",
+    "static/media/font-awesome.css": "/nucamp_react/static/media/fontawesome-webfont.fee66e71.woff",
+    "static/media/index.css": "/nucamp_react/static/media/open-sans-latin-800italic.c62c3eea.woff2"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1c0b0eb8.js",
+    "static/css/2.f8863c3e.chunk.css",
+    "static/js/2.69aef28b.chunk.js",
+    "static/css/main.c4357afd.chunk.css",
+    "static/js/main.98436e0d.chunk.js"
+  ]
+}
