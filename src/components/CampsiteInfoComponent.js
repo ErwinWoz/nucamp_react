@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { Card, CardImg, CardText, CardBody, Button, Modal, ModalHeader, ModalBody, Breadcrumb, BreadcrumbItem, Label, Col, Row } from 'reactstrap';
 import { Link } from 'react-router-dom';
 import { Control, LocalForm, Errors} from 'react-redux-form';
+import { Animated } from "react-animated-css"; 
 
 const required = val => val && val.length;
 const maxLength = len => val => !val || (val.length <= len);
@@ -33,13 +34,15 @@ class CommentForm extends Component {
     render() {
         return (
             <div>
-                <Button 
-                    type="submit" 
-                    outline color="secondary" 
-                    size="lg"
-                    onClick={this.toggleModal}>
-                    <i className="fa fa-pencil fa-lg" /> Submit Comment
-                </Button>
+                <Animated animationIn="rotateInDownRight" animationInDuration={1000} >
+                    <Button 
+                        type="submit" 
+                        outline color="secondary" 
+                        size="lg"
+                        onClick={this.toggleModal}>
+                        <i className="fa fa-pencil fa-lg" /> Submit Comment
+                    </Button>
+                </Animated>
                 <Modal isOpen={this.state.isModalOpen} toggle={this.toggleModal}>
                     <ModalHeader toggle={this.toggleModal}>Submit Comment</ModalHeader>
                     <ModalBody>
@@ -93,11 +96,13 @@ class CommentForm extends Component {
                             </Row>
                             <Row className="form-group">
                                 <Col>
-                                    <Button
-                                        type="submit" 
-                                        color="primary">
-                                        Submit
-                                    </Button>
+                                    <Animated animationIn="rotateInDownRight" animationInDuration={1500}>
+                                        <Button
+                                            type="submit" 
+                                            color="primary">
+                                            Submit
+                                        </Button>
+                                    </Animated>
                                 </Col>
                             </Row>
                         </LocalForm>
