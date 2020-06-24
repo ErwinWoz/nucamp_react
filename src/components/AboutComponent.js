@@ -46,7 +46,7 @@ function PartnerList(props) {
         return (
             <div className="col mt-4">
                 <Media list>
-                    <Stagger>{partners}</Stagger>                  
+                    <Stagger in>{partners}</Stagger>                  
                 </Media>
             </div>
         );
